@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Enviorment>
+    <!--TimeOut-->
+    <timeout>10</timeout>
+    <implicitlywait>10</implicitlywait>
+    <ServerUsername>admin</ServerUsername>
+
+    <!-- web / mobile / API / Electron / windowsDesktop -->
+    <platformName>web</platformName>
+    <browserName>Chrome</browserName>
+    <url>http://demo.arielrudin.net/</url>
+
+    <!--Resolutions: maximize / 1920,1080 / 1368,768-->
+    <Resolution>1920,1080</Resolution>
+    <screenshotformat>.png</screenshotformat>
+    <imageRepo>./ImagesRepository/</imageRepo>
+
+    <!-- latest  / 106 / Etc. https://chromedriver.storage.googleapis.com/-->
+    <browserVersion>latest</browserVersion>>
+    <base_url>http://demo.arielrudin.net/</base_url>
+
+    <!--API-->
+    <API_url>http://demo.arielrudin.net/wp-json/</API_url>
+    <APIusername>skyboxview</APIusername>
+    <APIpassword>skyboxview</APIpassword>
+
+    <!--LinuxServer-->
+    <LinuxServer>demoAriel</LinuxServer>
+    <LinuxUser>admin</LinuxUser>>;
+    <LinuxPassword>admin</LinuxPassword>>
+
+    <!--mySQL-->
+    <mySQLDBName>demo_core</mySQLDBName>
+    <mySQLPort>3306</mySQLPort>>
+    <dbUser>root</dbUser>
+    <dbPass>manager</dbPass>
+    <dbURL>jdbc:mysql://localhost:3306/</dbURL>
+</Enviorment>
